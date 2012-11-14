@@ -11,7 +11,7 @@ import urllib2
 import json
 import codecs
 
-URL = "https://api.twitter.com/1/statuses/user_timeline.json?include_entities=true&include_rts=false&screen_name=takano32&count=200"
+URL = "https://api.twitter.com/1/statuses/user_timeline.json?include_entities=true&include_rts=true&screen_name=takano32&count=200"
 
 def main():
     sys.stdout = codecs.getwriter('utf_8')(sys.stdout)
